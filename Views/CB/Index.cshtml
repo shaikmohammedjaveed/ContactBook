@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ContactBookEntityLayer.ContactCategoryM>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "CreateCategory")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.categoryId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CategoryName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.categoryId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CategoryName)
+        </td>
+        <td>
+            @Html.ActionLink(item.CategoryName,"ContactDetails", new { id=item.categoryId})
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.categoryId }) 
+            @Html.ActionLink("Details", "ContactDetails", new { id=item.categoryId }) 
+            @Html.ActionLink("Delete", "Delete", new {  id=item.categoryId })
+        </td>
+    </tr>
+}
+
+</table>
