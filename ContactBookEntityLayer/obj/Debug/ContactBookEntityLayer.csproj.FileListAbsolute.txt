@@ -1,0 +1,6 @@
+C:\Users\shaikmohammed.javeed\source\repos\ContactBook\ContactBookEntityLayer\bin\Debug\ContactBookEntityLayer.dll
+C:\Users\shaikmohammed.javeed\source\repos\ContactBook\ContactBookEntityLayer\bin\Debug\ContactBookEntityLayer.pdb
+C:\Users\shaikmohammed.javeed\source\repos\ContactBook\ContactBookEntityLayer\obj\Debug\ContactBookEntityLayer.csprojAssemblyReference.cache
+C:\Users\shaikmohammed.javeed\source\repos\ContactBook\ContactBookEntityLayer\obj\Debug\ContactBookEntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\shaikmohammed.javeed\source\repos\ContactBook\ContactBookEntityLayer\obj\Debug\ContactBookEntityLayer.dll
+C:\Users\shaikmohammed.javeed\source\repos\ContactBook\ContactBookEntityLayer\obj\Debug\ContactBookEntityLayer.pdb
